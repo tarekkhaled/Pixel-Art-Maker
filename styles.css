@@ -1,0 +1,85 @@
+body {
+    background: #13131f;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.popup {
+    background: #1f1f31;
+    border: 1px solid #22262a;
+    color: #F1D885;
+    padding: 20px 50px;
+    width: max-content;
+    margin: auto;
+    max-width: 665px;
+}
+
+.popup h1 {
+    border-bottom: 1px solid;
+    margin-bottom: 29px;
+    text-align: center;
+}
+#sizePicker {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center
+}
+
+#sub {
+    margin-top: 30px;
+    width: 123px;
+    min-height: 26px;
+    background: #656565;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.7s ease-in-out;
+}
+
+#sub:hover {
+    background: #bdbdbd;
+}
+
+.color {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.input_field {
+    margin-right: 20px;
+}
+table,
+tr,
+td {
+    border: 1px solid rgb(62, 65, 68);
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type="color"]{
+    width: 120px;
+    cursor: pointer;
+    margin-left: 51px;
+}
+
+.Design {
+    text-align: center;
+    background: #3c3c52;
+    padding: 20px;
+    color: #fff;
+}
